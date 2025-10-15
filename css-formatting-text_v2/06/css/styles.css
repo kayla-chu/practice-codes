@@ -4,7 +4,7 @@
   font-family: 'Actor';
   font-style: normal;
   font-weight: 400;
-  src: url('06/fonts/actor-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../fonts/actor-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* balthazar-regular - latin */
@@ -13,7 +13,7 @@
   font-family: 'Balthazar';
   font-style: normal;
   font-weight: 400;
-  src: url('06/fonts/balthazar-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../fonts/balthazar-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 html {
