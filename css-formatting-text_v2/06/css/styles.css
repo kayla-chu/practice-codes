@@ -69,9 +69,13 @@ html {
 	margin-bottom: 7px;
 }
 
-.main byline{
+.main byline {
 	font-size: 1.6em;
 	margin: 5px 0 25px 50px;
+}
+
+.main .byline strong {
+	color: rgb(32,126,191);
 }
 
 /* reset browser styles */
