@@ -30,6 +30,8 @@ html {
 
 .main h2 {
 	font: normal 3.16em "Actor 27px", Garamond, Time, serif;
+	color: rgb(37,76,143);
+	border-bottom: 1px solid rgb(200,200,200);
 }
 
 
