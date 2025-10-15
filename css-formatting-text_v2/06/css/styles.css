@@ -76,6 +76,8 @@ html {
 
 .main .byline strong {
 	color: rgb(32,126,191);
+	text-transform: uppercase;
+	margin-left: 11px;
 }
 
 /* reset browser styles */
