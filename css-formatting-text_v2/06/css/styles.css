@@ -18,7 +18,7 @@
 
 html {
 	font-family: 'Balthazar';
-	font-size: 62.5%; /*this sets the font size at around 10px */
+	font-size: 40%; /*this sets the font size at around 10px */
 	background: rgb(225,238,253) url(../images/bg_body.png) repeat-x;
 }
 
