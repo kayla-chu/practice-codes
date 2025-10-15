@@ -37,6 +37,13 @@ html {
 	text-shadow: 4px 4px 6px rgba(0,0,0,.75);
 }
 
+.main h1 strong {
+	font-size: 150px;
+	color: white;
+	line-height: 1;
+	margin-right: -.5em;
+}
+
 .main h2 {
 	font: normal 3.16em "Actor 27px", Garamond, Time, serif;
 	color: rgb(37,76,143);
