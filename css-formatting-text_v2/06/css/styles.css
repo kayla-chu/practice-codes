@@ -47,8 +47,9 @@ html {
 .main p {
 	font-size: 1.8em;
 	line-height: 1.5;
-	maring-left: 150px;
-	
+	margin-left: 150px;
+	margin-right: 50px;
+	margin-bottom: 10px;
 }
 
 
