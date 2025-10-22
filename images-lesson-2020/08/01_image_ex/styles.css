@@ -72,5 +72,9 @@ figure img {
 	padding: 10px;
 }
 
+figcaption {
+	font: bold 1em/normal Verdana, Arial, Helvetica, sans-serif;
+}
+
 
 
