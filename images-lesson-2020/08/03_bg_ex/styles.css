@@ -110,7 +110,7 @@ html {
 
 .announcement {
 	margin-top: 115px;
-	background: url(images/scroll_top.jpg) no-repeat center top, 
+	background: url(images/scroll_top.jpg) no-repeat center top, url(images/scroll_bottom.jpg) no-repeat center bottom
 }
 
 .main h2 {
