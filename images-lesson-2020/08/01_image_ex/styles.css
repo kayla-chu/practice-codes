@@ -74,6 +74,9 @@ figure img {
 
 figcaption {
 	font: bold 1em/normal Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	text-align: center;
+	
 }
 
 
