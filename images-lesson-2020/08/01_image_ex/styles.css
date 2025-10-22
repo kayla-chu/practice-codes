@@ -60,7 +60,12 @@ p {
 }
 /* add your styles below here */
 
-
+figure {
+	float: right;
+	width: 222px;
+	margin: 15px 10px 5px 10px;
+	
+}
 
 
 
