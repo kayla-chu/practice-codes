@@ -60,6 +60,12 @@ p {
 }
 /* add your styles below here */
 
+img.figure {
+	float: right;
+	margin: 10px;
+	
+}
+
 
 
 
