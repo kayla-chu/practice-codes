@@ -115,7 +115,7 @@ html {
 .main h2 {
 	background-image: url(images/underline.png);
 	background-repeat: no-repeat;
-	
+	background-position: left bottom;
 }
 
 
