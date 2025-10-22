@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Menu Bars</title>
+<style>
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+
+/* BASIC */
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 20px;
+}
+
+.nav {
+	width: 100%;
+	display: flex;
+	align-content: space-between;
+}
+
+.nav li {
+	list-style-type: none;
+	
+	
+}
+
+.nav li a {
+	text-decoration: none;
+	margin: 12px 5px 12px 5px;
+	padding: 10px;
+	background-color: powderblue;
+	border: 3px dodgerblue solid;
+	border-radius: 6px;
+	
+}
+
+.nav li a:hover {
+	border-color: powderblue;
+	background-color: dodgerblue;
+	color: white;
+} 
+</style>
+</head>
+<body>
+  <ul class="nav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="features.hmtl">Features</a></li>
+    <li><a href="experts.hmtl">Experts</a></li>
+    <li><a href="quiz.hmtl">Quiz</a></li>
+    <li><a href="projects.hmtl">Projects</a></li>
+    <li><a href="horoscopes.hmtl">Horoscopes</a></li>
+  </ul>
+</body>
+</html>
