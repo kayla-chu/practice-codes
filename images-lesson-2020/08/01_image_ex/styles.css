@@ -64,9 +64,13 @@ figure {
 	float: right;
 	width: 222px;
 	margin: 15px 10px 5px 10px;
-	
 }
 
+figure img {
+	border: 1px solid #777;
+	background-color: #ccc;
+	padding: 10px;
+}
 
 
 
