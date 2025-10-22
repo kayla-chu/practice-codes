@@ -111,6 +111,7 @@ html {
 .announcement {
 	margin-top: 115px;
 	background: url(images/scroll_top.jpg) no-repeat center top, url(images/scroll_bottom.jpg) no-repeat center bottom, url(images/scroll_middle.jpg) repeat-y center top;
+	padding: 70px 0 60px 0;
 }
 
 .main h2 {
