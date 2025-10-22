@@ -123,6 +123,7 @@ html {
 	list-style: none;
 	background-image: url(images/bullet.png);
 	background-repeat: no-repeat;
+	background-position: 0 4px;
 	padding-left: 25px;
 	margin-bottom: 10px;
 }
