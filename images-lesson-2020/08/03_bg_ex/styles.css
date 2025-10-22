@@ -93,7 +93,7 @@ table {
 
 /* add your styles here */
 html {
-	background-image: linear-gradient(to bottom, rgb(176,194,213), white);
+	background-image: linear-gradient(to bottom, rgb(176,194,213), white, 700px);
 }
 
 
