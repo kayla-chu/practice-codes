@@ -119,7 +119,10 @@ html {
 	padding-bottom: 7px;
 }
 
-
+.announcement li {
+	list-style: none;
+	
+}
 
 
 
