@@ -121,7 +121,7 @@ html {
 
 .announcement li {
 	list-style: none;
-	
+	background-image: url(images/bullet.png);
 }
 
 
