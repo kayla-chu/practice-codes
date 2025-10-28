@@ -1,1 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Low-Fi Wireframes — 4-up</title>
+<style>
+  :root{
+    --bg:#f7f7f7;
+    --bezel:#ffffff;
+    --panel:#f0f0f0;
+    --card:#e8e8e8;
+    --muted:#cfcfcf;
+    --text:#111;
+    --accent:#d9d9d9;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  }
+  body{
+    margin:18px;
+    background:var(--bg);
+    color:var(--text);
+  }
+  .wrap{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    align-items:flex-start;
+    flex-wrap:wrap;
+  }
+
+  .phone{
+    width:260px;
+    height:540px;
+    background:var(--bezel);
+    border-radius:18px;
+    box-shadow:0 2px 0 rgba(0,0,0,0.08);
+    border:1px solid #bbb;
+    padding:18px;
+    box-sizing:border-box;
+  }
+
+  .title{ text-align:center; font-weight:700; margin-bottom:10px; font-size:15px; }
+  .card{ background:var(--card); border:1px solid #bbb; border-radius:8px; padding:10px; margin-bottom:12px; }
+  .smallcard{ background:var(--panel); border:1px solid #bbb; border-radius:6px; padding:8px; margin-bottom:10px; font-size:13px; }
+  .pct{
+    float:right;
+    width:42px;height:42px;border-radius:50%;
+    background:#fff;border:1px solid #bbb; display:flex; align-items:center; justify-content:center; font-weight:700;
+  }
+  .start-btn{
+    display:block;
+    width:100%; text-align:center; padding:12px; background:var(--accent); border-radius:10px; font-weight:700; border:1px solid #aaa; margin-top:12px;
+  }
+
+  /* breathing screen */
+  .circle{
+    width:200px;height:200px;border-radius:50%; border:2px solid #555; background:#fff; margin:20px auto 6px; display:flex; align-items:center; justify-content:center; font-weight:700;
+  }
+  .timer{ text-align:center; margin-bottom:6px; font-size:16px; color:#222;}
+  .control-row{ display:flex; gap:18px; justify-content:center; margin-top:12px; }
+  .control-btn{ width:78px; padding:8px; background:var(--card); border:1px solid #bbb; border-radius:6px; text-align:center; font-size:13px; }
+
+  /* insights screen */
+  .tile-row{ display:flex; gap:8px; margin-bottom:12px; }
+  .tile{ flex:1; background:var(--card); border:1px solid #bbb; border-radius:6px; padding:12px; text-align:center; font-weight:600; }
+
+  /* settings */
+  .setting-row{ display:flex; align-items:center; justify-content:space-between; padding:12px 6px; border-bottom:1px dashed #ddd; }
+  .toggle{ width:36px; height:20px; border:1px solid #bbb; border-radius:6px; background:#fff; display:flex; align-items:center; justify-content:center; font-size:11px; }
+
+  /* footer note small */
+  .note{ font-size:12px; color:#555; margin-top:8px; }
+
+  /* responsive */
+  @media (max-width:1100px){
+    .wrap{ gap:12px; align-items:flex-start; }
+    .phone{ transform:scale(0.9); transform-origin:top left; }
+  }
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center; margin-bottom:18px;">Low-Fidelity Wireframes — 4 screens</h2>
+
+<div class="wrap">
+
+  <!-- Screen 1: Home Dashboard -->
+  <div class="phone" id="screen-home">
+    <div class="title">Home — Dashboard</div>
+
+    <div class="card">
+      <div style="font-weight:700;">Sleep</div>
+      <div style="font-size:12px; color:#333;">Quality: Restful</div>
+      <div class="pct">82%</div>
+    </div>
+
+    <div class="smallcard">
+      <div style="font-weight:700; margin-bottom:6px;">Ambient: Lighting • Temperature</div>
+      <div style="font-size:13px;">Lights: Warm • Temp: 21°C</div>
+    </div>
+
+    <div style="height:20px;"></div>
+
+    <div class="start-btn">Start Morning Routine</div>
+
+    <div style="height:10px;"></div>
+    <div style="font-size:13px; color:#666;">(quick status at a glance — keep it simple)</div>
+  </div>
+
+  <!-- Screen 2: Guided Breathing -->
+  <div class="phone" id="screen-breathe">
+    <div class="title">Guided Breathing</div>
+
+    <div class="circle">Breathe</div>
+    <div class="timer">00:30</div>
+    <div style="text-align:center; font-size:12px; color:#666; margin-bottom:8px;">Voice: "Inhale... Exhale..."</div>
+
+    <div class="control-row">
+      <div class="control-btn">Pause</div>
+      <div class="control-btn">Stop</div>
+    </div>
+
+    <div style="height:10px;"></div>
+    <div style="font-size:12px; color:#666; text-align:center;">(animation expands & contracts in final prototype)</div>
+  </div>
+
+  <!-- Screen 3: Insights Overview -->
+  <div class="phone" id="screen-insights">
+    <div class="title">Insights Overview</div>
+
+    <div class="tile-row">
+      <div class="tile">Sleep<br><span style="font-size:13px; font-weight:700;">82%</span></div>
+      <div class="tile">Mood<br><span style="font-size:13px; font-weight:700;">Calm</span></div>
+    </div>
+
+    <div class="smallcard" style="margin-bottom:18px;">
+      <div style="font-weight:700; margin-bottom:6px;">Environment</div>
+      <div style="font-size:13px;">Air: Good • Noise: Low</div>
+    </div>
+
+    <div class="start-btn">Adjust Settings</div>
+
+    <div style="height:8px;"></div>
+    <div class="note">(summarize daily wellbeing; link to deeper reports)</div>
+  </div>
+
+  <!-- Screen 4: Settings -->
+  <div class="phone" id="screen-settings">
+    <div class="title">Settings</div>
+
+    <div class="setting-row">
+      <div>Smart Curtains</div>
+      <div class="toggle">On</div>
+    </div>
+
+    <div class="setting-row">
+      <div>Sound Alarm</div>
+      <div class="toggle">On</div>
+    </div>
+
+    <div class="setting-row">
+      <div>Diffuser Sync</div>
+      <div class="toggle">On</div>
+    </div>
+
+    <div style="padding:12px; margin-top:8px;">
+      <div style="font-weight:700; margin-bottom:6px;">Schedule: Morning Start Time</div>
+      <div style="background:var(--panel); padding:10px; border-radius:8px; border:1px solid #bbb; text-align:center;">06:45 AM</div>
+    </div>
+
+    <div style="height:8px;"></div>
+    <div class="note">(toggles are placeholders — replace with native controls in high-fi)</div>
+  </div>
+
+</div>
+
+</body>
+</html>
 
