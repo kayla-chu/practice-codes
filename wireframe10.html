@@ -47,10 +47,18 @@
     width:42px;height:42px;border-radius:50%;
     background:#fff;border:1px solid #bbb; display:flex; align-items:center; justify-content:center; font-weight:700;
   }
-  .start-btn{
-    display:block;
-    width:100%; text-align:center; padding:12px; background:var(--accent); border-radius:10px; font-weight:700; border:1px solid #aaa; margin-top:12px;
-  }
+ .start-btn{
+  display:block;
+  width:100%;
+  box-sizing:border-box;   /* ✅ keeps padding inside the width */
+  text-align:center;
+  padding:12px;
+  background:var(--accent);
+  border-radius:10px;
+  font-weight:700;
+  border:1px solid #aaa;
+  margin-top:12px;
+}
 
   /* breathing screen */
   .circle{
