@@ -83,7 +83,9 @@ nav a {
 
 /* your styles here */
 
-
+nav a:hover {
+	transform: scale(1.5)
+}
 
 
 
