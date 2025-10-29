@@ -98,6 +98,9 @@ keyframes logo {
 	from {
 		transform: rotate(0) scale(1.5);
 	}
+	to{
+		transform: rotate(-720deg) scale(1);
+	}
 }
 
 
