@@ -99,9 +99,12 @@ nav a:hover {
 		transform: rotate(0) scale(.5);
 		left: 120%;
 	}
+	50% {
+		transform: rotate(0) scale(.5);
+		left: 0;
+	}
 	to{
 		transform: rotate(-720deg) scale(1);
-		left: 0;
 	}
 }
 
