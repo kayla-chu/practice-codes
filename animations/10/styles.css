@@ -101,6 +101,7 @@ nav a:hover {
 	}
 	to{
 		transform: rotate(-720deg) scale(1);
+		left: 0;
 	}
 }
 
