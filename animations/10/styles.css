@@ -103,6 +103,9 @@ keyframes logo {
 	}
 }
 
+.logo{
+	animation: logo 1s;
+}
 
 
 
