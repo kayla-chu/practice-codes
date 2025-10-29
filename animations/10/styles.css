@@ -94,7 +94,7 @@ nav a:hover {
 	transform: scale(1.5);
 }
 
-keyframes logo {
+@keyframes logo {
 	from {
 		transform: rotate(0) scale(.5);
 	}
