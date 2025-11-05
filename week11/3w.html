@@ -1,1 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    background-color: #e8faff; /* calm blue */
+}
 
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+    position: relative;
+}
+
+/* quadrants */
+.box {
+    border: 1px solid #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* highlight the opportunity zone (Guided + Emotional = top left) */
+.highlight {
+    background-color: #ffe8c6; /* warm soft highlight */
+    border: 2px solid #f4a442;
+    font-weight: bold;
+}
+
+/* axis labels */
+.axis-label {
+    position: absolute;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.y-left {
+    left: -120px;
+    top: 50%;
+    transform: translateY(-50%) rotate(-90deg);
+}
+
+.y-right {
+    right: -140px;
+    top: 50%;
+    transform: translateY(-50%) rotate(90deg);
+}
+
+.x-top {
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.x-bottom {
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+    h2 {
+    margin-bottom: 24px; /* increase gap below the title */
+}
+
+.matrix-container {
+    margin-top: 24px; /* OR add spacing above the graph */
+}
+    
+</style>
+</head>
+<body>
+
+<h2>2×2: Guided ↔ Autonomous vs Functional ↔ Emotional</h2>
+
+<div class="container">
+    <div class="box highlight">Guided + Emotional<br><br>🌅 Serene Wake System</div>
+    <div class="box">Autonomous + Emotional<br><br>Ambient AI Moods</div>
+    <div class="box">Guided + Functional<br><br>Fitness / Breathing Apps</div>
+    <div class="box">Autonomous + Functional<br><br>Standard Smart Home</div>
+
+    <!-- Axis Labels -->
+    <div class="axis-label y-left">Guided</div>
+    <div class="axis-label y-right">Autonomous</div>
+    <div class="axis-label x-top">Emotional</div>
+    <div class="axis-label x-bottom">Functional</div>
+</div>
+
+</body>
+</html>
