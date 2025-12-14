@@ -2,17 +2,17 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>IoT Conservation Wireframes</title>
+<title>IoT Conservation – Mid-Fi Wireframes</title>
 
 <style>
 body {
   font-family: Arial, sans-serif;
-  background: #ffffff;
+  background: #f2f2f2;
   padding: 40px;
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 30px;
   margin-bottom: 40px;
 }
 
@@ -21,75 +21,148 @@ h1 {
   gap: 30px;
 }
 
+/* Phone Frame */
 .screen {
-  width: 22%;
-  border: 2px solid #000;
-  padding: 16px;
+  width: 23%;
+  background: #ffffff;
+  border: 2px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
-.screen-title {
-  font-weight: bold;
-  margin-bottom: 12px;
+/* Header */
+.header {
+  background: #d9d9d9;
+  padding: 12px;
   text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid #aaa;
 }
 
-.box {
-  border: 1px solid #000;
-  height: 60px;
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* Content Area */
+.content {
+  padding: 14px;
+}
+
+/* UI Elements */
+.card {
+  background: #e6e6e6;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 12px;
   font-size: 12px;
 }
 
-.tall {
-  height: 100px;
+.status-bar {
+  height: 10px;
+  background: #bfbfbf;
+  border-radius: 4px;
+  margin-top: 6px;
+}
+
+.alert {
+  background: #cccccc;
+  border: 2px dashed #666;
+}
+
+.button {
+  background: #b3b3b3;
+  border: 1px solid #666;
+  border-radius: 6px;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
 }
 
 .small {
-  height: 40px;
+  font-size: 11px;
+  color: #333;
+}
+
+.footer {
+  background: #ededed;
+  padding: 8px;
+  text-align: center;
+  font-size: 11px;
+  border-top: 1px solid #aaa;
 }
 </style>
 </head>
 
 <body>
 
-<h1>IoT Conservation System — Low-Fidelity Wireframes</h1>
+<h1>IoT Conservation System — Mid-Fidelity Wireframes</h1>
 
 <div class="container">
 
-  <!-- Screen 1 -->
+  <!-- SCREEN 1 -->
   <div class="screen">
-    <div class="screen-title">Environmental Dashboard</div>
-    <div class="box">Air Quality Status</div>
-    <div class="box">Water Usage Level</div>
-    <div class="box">Energy Consumption</div>
-    <div class="box small">Overall Status Indicator</div>
+    <div class="header">Environmental Status</div>
+    <div class="content">
+      <div class="card">
+        Air Quality Index
+        <div class="status-bar"></div>
+      </div>
+      <div class="card">
+        Water Usage Level
+        <div class="status-bar"></div>
+      </div>
+      <div class="card">
+        Energy Consumption
+        <div class="status-bar"></div>
+      </div>
+    </div>
+    <div class="footer">Updated in real-time</div>
   </div>
 
-  <!-- Screen 2 -->
+  <!-- SCREEN 2 -->
   <div class="screen">
-    <div class="screen-title">Alerts & Warnings</div>
-    <div class="box tall">Current Alert Message</div>
-    <div class="box">Location Affected</div>
-    <div class="box small">Acknowledge Alert</div>
+    <div class="header">Alerts & Warnings</div>
+    <div class="content">
+      <div class="card alert">
+        ⚠ Environmental Alert<br>
+        <span class="small">Unusual water usage detected</span>
+      </div>
+      <div class="card">
+        Affected Zone: Local Area
+      </div>
+      <div class="button">Acknowledge Alert</div>
+    </div>
+    <div class="footer">Immediate attention recommended</div>
   </div>
 
-  <!-- Screen 3 -->
+  <!-- SCREEN 3 -->
   <div class="screen">
-    <div class="screen-title">Conservation Insights</div>
-    <div class="box">Daily Impact Summary</div>
-    <div class="box">Weekly Trend Graph</div>
-    <div class="box small">View Details</div>
+    <div class="header">Conservation Insights</div>
+    <div class="content">
+      <div class="card">
+        Daily Impact Summary
+      </div>
+      <div class="card">
+        Weekly Trend Visualization
+        <div class="status-bar"></div>
+      </div>
+      <div class="button">View Detailed Report</div>
+    </div>
+    <div class="footer">Patterns over time</div>
   </div>
 
-  <!-- Screen 4 -->
+  <!-- SCREEN 4 -->
   <div class="screen">
-    <div class="screen-title">Actions & Settings</div>
-    <div class="box">Alert Threshold Toggles</div>
-    <div class="box">Notification Preferences</div>
-    <div class="box small">Save Changes</div>
+    <div class="header">Actions & Settings</div>
+    <div class="content">
+      <div class="card">
+        Alert Thresholds
+        <div class="status-bar"></div>
+      </div>
+      <div class="card">
+        Notification Preferences
+      </div>
+      <div class="button">Save Settings</div>
+    </div>
+    <div class="footer">User-controlled automation</div>
   </div>
 
 </div>
